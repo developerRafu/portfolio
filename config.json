@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Seu Nome",
+    "subtitle": "Mobile Developer • Bug Hunter",
+    "avatar": "assets/avatar.svg"
+  },
+  "cta": {
+    "label": "LinkedIn",
+    "icon": "linkedin",
+    "url": "https://www.linkedin.com/"
+  },
+  "links": [
+    { "label": "Instagram", "url": "https://instagram.com/", "icon": "instagram" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/", "icon": "linkedin" },
+    { "label": "YouTube", "url": "https://youtube.com/", "icon": "youtube" },
+    { "label": "Meu Site", "url": "https://example.com", "icon": "globe" }
+  ]
+}
