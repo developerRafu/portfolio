@@ -1,0 +1,27 @@
+::selection {
+  background: rgba(16, 185, 129, 0.28);
+  color: #0f172a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-card {
+    transition: none;
+  }
+
+  .link-card:hover {
+    transform: none;
+  }
+}
+
+.link-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.link-card:hover {
+  border-color: rgba(15, 23, 42, 0.12);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.link-card:active {
+  transform: translateY(1px);
+}
